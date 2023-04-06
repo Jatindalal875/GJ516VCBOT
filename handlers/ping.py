@@ -49,13 +49,13 @@ async def help(client: Client, message: Message):
     start = datetime.now()
     end = datetime.now()
     resp = (end - start).microseconds / 1000
-    await message.reply_sticker("CAACAgUAAx0CZp7eIAACYn9jQ4fSHUbGxAMFJz_-kaRcOuoRWAACDgcAAruXGFbarx8_grqJYh4E")
+    await message.reply_sticker("CAACAgUAAxkBAAIHtWQuoLSl67KWtj4C3FngwJP-NlkoAAImBgACPZzoV08or1DnPxoAAS8E")
     jay = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" Pinging...⚡ ",
     )
     await jay.edit_text(
-        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [ᴇxᴘᴏʀᴛ ɢᴀʙʙᴀʀ🥀](https://t.me/export_gabbar)||""",
+        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||𝗪𝗜𝗧𝗛 🖤 ʙʏ [𝗕𝗥𝗢𝗧𝗛𝗘𝗘𝗛𝗢𝗢𝗗.𝗖𝗢𝗨𝗡𝗖𝗜𝗟🥀](https://t.me/THE_BROTHERHOOD_COUNCIL)||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,7 +68,7 @@ async def help(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "💡Git repo ", url="https://te.legra.ph/file/db7c6b18567b5e81165ad.mp4"
+                        "💡Git repo ", url="https://te.legra.ph/file/a0a72d2971424c77000e3.jpg"
                     )
                 ]
             ]
