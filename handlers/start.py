@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CZp7eIAACpv1jYIbWhI9JPBkvLLSLwPxc-8yu2QACDgcAAruXGFbarx8_grqJYh4E")
+    await message.reply_sticker("CAACAgUAAxkBAAIHtWQuoLSl67KWtj4C3FngwJP-NlkoAAImBgACPZzoV08or1DnPxoAAS8E")
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" ** Hey {message.from_user.mention()} , 🥀\n\n
@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🖤 by : [𝗝𝝙𝗬🥀](https://t.me/{me}) ** """,
+➻ Made 🖤 by : [𝗕𝗥𝗢𝗧𝗛𝗘𝗥𝗛𝗢𝗢𝗗.𝗖𝗢𝗨𝗡𝗖𝗜𝗟🥀](https://t.me/THE_BROTHERHOOD_COUNCIL) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -36,14 +36,14 @@ async def start_(client: Client, message: Message):
                         "👤 Bot Owner ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "👨‍💻 Developer ", url=f"https://t.me/export_gabbar"
+                        "👨‍💻 Developer ", url=f"https://te.legra.ph/file/a0a72d2971424c77000e3.jpg"
                     ),
                   ],[
                     InlineKeyboardButton(
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "💡 Git repo", url="https://github.com/Jatindalal875/GJ516VCBOT"
                     )]
             ]
        ),
